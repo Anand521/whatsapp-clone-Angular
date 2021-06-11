@@ -1,0 +1,78 @@
+#background_header{
+  width: 100%;
+  height: 20vh;
+  background-color:#019688;
+
+}
+
+#background_body{
+  height: 80vh;
+  background: #c0c0c0;
+}
+#chatContainer{
+  position: fixed;
+  top: 0%;
+  bottom: 0;
+  margin: auto;
+  width: 70%;
+  height:90% ;
+  background-color: #fff;
+  right: 0px;
+  left: 0px;
+  box-shadow: -1px 1px 5px rgba($color: #000000, $alpha: 1.0) ;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  #sidebar{
+    flex-basis: 30%;
+    border-right:1px solid #e1e4e5;
+    display: flex;
+    flex-direction: column;
+    #sidebarHeader{
+      flex-basis: 67px;
+      background-color: #eeeeee;
+
+    }
+    #searchBox{
+      flex-basis: 50px;
+      padding-left: 30px;
+      background-color: #fbfbfb;
+      border-bottom:1px solid #e1e4e5;
+      display: flex;
+
+      align-items: center;
+      // justify-content: center;
+      img{
+        position: absolute;
+        left: 50px;
+      }
+
+      input{
+        width: calc(90%-60px);
+        border: 1px solid #f7f7f7;
+        border-radius: 17px;
+        height: 70%;
+        padding-left:60px;
+        color: #a9a9a9;
+        outline: none;
+        &::placeholder{
+          color: #9a9a9a;
+          font-weight: 100;
+        }
+
+      }
+    }
+    #noConversation{
+     padding-top: 30px;
+     text-align: center;
+     color:#b9b9b9 ;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 100;
+
+    }
+  }
+
+
+}
+

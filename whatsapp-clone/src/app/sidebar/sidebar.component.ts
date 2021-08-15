@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  conversations=[
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"},
+    {name:"Anand" ,time :"8:21",latestMessage:"good Morning"}
+  ]
   constructor() { }
 
   ngOnInit(): void {
